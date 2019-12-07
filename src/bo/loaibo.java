@@ -17,4 +17,22 @@ public class loaibo {
 	}
 	
 
+	
+	public int Them(String maloai,String tenloai)  throws Exception{
+		return s.Them(maloai, tenloai);
+	}
+	
+	
+	public int Sua(String maloai,String tenloaimoi) throws Exception{
+		return s.Sua(maloai, tenloaimoi);
+	}
+	
+	
+	public int Xoa(String maloai) throws Exception{
+		return s.Xoa(maloai);
+	}
+	
+	public loaibean TimMaLoai(String maloai) throws Exception{
+		return s.TimMaLoai(maloai);
+	}
 }
